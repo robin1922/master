@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_decontamination_report,decontamination.report,model_decontamination_report,,1,1,1,1
+access_decontamination_report_line,decontamination.report.line,model_decontamination_report_line,,1,1,1,1
+access_decontamination_description,decontamination.description,model_decontamination_description,,1,1,1,1
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="view_decontamination_confirm_wizard_form" model="ir.ui.view">
+            <field name="name">Confirmation</field>
+            <field name="model">decontamination.confirm</field>
+            <field name="arch" type="xml">
+                <form string="Confirmation">
+                    <div>
+                    	<field name="decontamination_id" invisible="1"/>
+                        <p><b>No item Decontaminated was selected. Please revise if incorrect</b></p>
+                    </div>
+                    <footer>
+                        <button name="action_proceed" string="Proceed" type="object" class="oe_highlight"/>
+                        or
+                        <button string="Cancel" class="oe_link" special="cancel"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+        <record id="action_decontamination_confirm_wizard" model="ir.actions.act_window">
+            <field name="name">Confirmation</field>
+            <field name="res_model">decontamination.confirm</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+        </record>
+
+    </data>
+</odoo>
