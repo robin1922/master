@@ -24,6 +24,7 @@
     'version': '12.5',
     'category': 'General',
     'description': """
+Test
     """,
     'author': 'BroadTech IT Solutions Pvt Ltd.',
     'website': 'http://www.broadtech-innovations.com',
