@@ -24,7 +24,7 @@
     'version': '12.5',
     'category': 'General',
     'description': """
-Test
+Test3 Pull Request
     """,
     'author': 'BroadTech IT Solutions Pvt Ltd.',
     'website': 'http://www.broadtech-innovations.com',
