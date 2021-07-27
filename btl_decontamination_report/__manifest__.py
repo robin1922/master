@@ -28,7 +28,7 @@ Test
     """,
     'author': 'BroadTech IT Solutions Pvt Ltd.',
     'website': 'http://www.broadtech-innovations.com',
-    'depends': ['btl_loaners_tracking'],
+    'depends': ['btl_loaners_tracking','btl_sale_phase2'],
     'demo': [],
     'data': [
         'security/ir.model.access.csv',
